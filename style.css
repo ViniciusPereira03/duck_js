@@ -1,0 +1,38 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+}
+
+button {
+  background-color: gold;
+  padding: 16px;
+  border: 1px solid transparent;
+  border-radius: 32px;
+  margin: 32px;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  transform: scale(1.03);
+  cursor: pointer;
+  background-color: rgb(221, 188, 3);
+
+}
+
+button:active {
+  transform: scale(0.9);
+  background-color: rgb(198, 169, 4);
+
+}
+
+img {
+  height: 60vh;
+}
